@@ -12,12 +12,4 @@
     filter: drop-shadow(0 4px 4px rgba(6, 107, 60, 0.397));
   }
   
-  .buttonDelete {
-    width: 100px;
-    height: 25px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-weight: 400;
-    color: aliceblue;
-    background: darkblue;
-  }
+  

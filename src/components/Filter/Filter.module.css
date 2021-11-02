@@ -1,15 +1,8 @@
-.filterLabel {
-    margin-top: 0;
-    font-size: 18px;
-    font-weight: 700;
-    filter: drop-shadow(0 4px 4px rgba(6, 107, 60, 0.397));
-  }
-  
-  .filterInput {
+  .filter {
     display: flex;
     width: 300px;
     height: 30px;
     margin-top: 10px;
     margin-bottom: 30px;
-    filter: drop-shadow(0 4px 4px rgba(6, 107, 60, 0.397));
+    filter: drop-shadow(0 4px 4px rgba(82, 190, 87, 0.397));
   }
