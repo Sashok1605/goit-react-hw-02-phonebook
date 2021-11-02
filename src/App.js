@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-
 import ContactsForm from './components/ContactsForm';
 import ContactsList from './components/ContactsList';
 import Filter from './components/Filter';
+import './App.css';
+
 
 
 class App extends Component {
