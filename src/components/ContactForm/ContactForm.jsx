@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { v4 } from 'uuid';
-import s from './ContactsForm.module.css';
+import s from './ContactForm.module.css';
 
-class ContactsForm extends Component {
+class ContactForm extends Component {
   static propTypes = {
     contacts: PropTypes.array.isRequired,
     onSubmit: PropTypes.func.isRequired,
@@ -79,4 +79,4 @@ class ContactsForm extends Component {
   }
 }
 
-export default ContactsForm;
+export default ContactForm;
