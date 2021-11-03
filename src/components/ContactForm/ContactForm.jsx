@@ -28,7 +28,7 @@ class ContactForm extends Component {
 
     const { name } = this.state;
 
-    if (this.findByName(name)) {
+    if (this.findByName(name) || name === name.toLowerCase()) {
       alert(`${name} is already in contacts!`);
       return;
     }
